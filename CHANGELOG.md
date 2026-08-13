@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+### Changed
+
+- Rework copyright headers
+
 ## 1.0.2 - 2026-08-13
 
 ### Added
