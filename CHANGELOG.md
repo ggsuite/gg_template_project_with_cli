@@ -5,3 +5,7 @@
 ### Added
 
 - Initial boilerplate.
+
+### Changed
+
+- Update pipelines
