@@ -1,6 +1,6 @@
 name: gg_template_project_with_cli
 description: gg_template_project_with_cli is a a base for new gg dart cli packages
-version: 1.0.2
+version: 1.1.0
 repository: https://github.com/ggsuite/gg_template_project_with_cli.git
 publish_to: none
 
