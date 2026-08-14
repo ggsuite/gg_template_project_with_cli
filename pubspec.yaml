@@ -1,24 +1,24 @@
 name: gg_template_project_with_cli
 description: gg_template_project_with_cli is a a base for new gg dart cli packages
-version: 1.0.2
+version: 1.1.0
 repository: https://github.com/ggsuite/gg_template_project_with_cli.git
 publish_to: none
 
 environment:
-  sdk: ">=3.3.0 <4.0.0"
+  sdk: ">=3.13.0 <4.0.0"
 
 dependencies:
   args: ^2.7.0
-  gg_args: ^3.0.1
-  gg_console_colors: ^2.3.1
-  gg_log: ^1.0.7
-  gg_process: ^1.1.7
+  gg_args: ^3.1.0
+  gg_console_colors: ^2.4.0
+  gg_log: ^1.1.0
+  gg_process: ^1.2.0
   path: ^1.9.1
 
 dev_dependencies:
-  dna_base: ^0.0.0
-  gg_capture_print: ^1.0.10
-  helix: ^0.0.4
+  dna_base: ^0.1.0
+  gg_capture_print: ^1.1.0
+  helix: ^0.1.0
   lints: ^6.1.0
   test: ^1.31.2
 
