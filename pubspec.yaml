@@ -16,7 +16,7 @@ dependencies:
   path: ^1.9.1
 
 dev_dependencies:
-  dna_base: ^0.3.0
+  dna_base: ^0.3.1
   gg_capture_print: ^1.1.0
   helix: ^0.1.0
   lints: ^6.1.0
