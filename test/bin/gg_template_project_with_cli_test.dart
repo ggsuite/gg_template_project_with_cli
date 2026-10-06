@@ -18,27 +18,33 @@ void main() {
   group('bin/gg_template_project_with_cli.dart', () {
     // #########################################################################
 
-    test('should be executable', () async {
-      // Execute bin/gg_template_project_with_cli.dart and check if it prints help
-      final result = await Process.run(
-        './bin/gg_template_project_with_cli.dart',
-        ['my-command'],
-        stdoutEncoding: utf8,
-        stderrEncoding: utf8,
-      );
+    test(
+      'should be executable',
+      () async {
+        // Execute bin/gg_template_project_with_cli.dart and check if it prints help
+        final result = await Process.run(
+          './bin/gg_template_project_with_cli.dart',
+          ['my-command'],
+          stdoutEncoding: utf8,
+          stderrEncoding: utf8,
+        );
 
-      final expectedMessages = [
-        'Invalid argument(s): Option',
-        red('input'),
-        'is mandatory.',
-      ];
+        final expectedMessages = [
+          'Invalid argument(s): Option',
+          red('input'),
+          'is mandatory.',
+        ];
 
-      final stdout = result.stdout as String;
+        final stdout = result.stdout as String;
 
-      for (final msg in expectedMessages) {
-        expect(stdout, contains(msg));
-      }
-    });
+        for (final msg in expectedMessages) {
+          expect(stdout, contains(msg));
+        }
+      },
+      skip: Platform.isWindows
+          ? 'Windows cannot execute a shebang script directly'
+          : false,
+    );
   });
 
   // ###########################################################################
