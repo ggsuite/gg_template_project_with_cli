@@ -1,10 +1,11 @@
 # Changelog
 
-## Unreleased
+## 1.2.0 - 2026-10-06
 
 ### Changed
 
 - Use ggwsm in pipelines
+- Replace dna_base with dna_vscode and dna_scripts
 
 ## 1.1.0 - 2026-08-14
 
