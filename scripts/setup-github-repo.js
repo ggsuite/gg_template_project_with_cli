@@ -26,7 +26,7 @@ const rulesetName = 'Default';
 
 // The status check that must pass before merging. It is provided by the
 // GitHub Actions app, i.e. not by "Any source".
-const requiredStatusCheck = 'Quick Check';
+const requiredStatusCheck = 'dnaGitQuickCheckPipelineName';
 const gitHubActionsAppId = 15368;
 
 // ...........................................................................
