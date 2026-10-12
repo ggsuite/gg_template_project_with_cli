@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+### Changed
+
+- Set the copyright holder and the quick check pipeline name in dna/_vars.json, as the DNA layers now require
+
 ## 1.2.0 - 2026-10-06
 
 ### Changed
