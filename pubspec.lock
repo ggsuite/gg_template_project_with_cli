@@ -100,18 +100,16 @@ packages:
   dna_scripts:
     dependency: "direct dev"
     description:
-      name: dna_scripts
-      sha256: cf5dffa1242fe06668c77664d65e1b86fc0db5127da636ead6f212e47e2127ba
-      url: "https://pub.dev"
-    source: hosted
+      path: "../dna_scripts"
+      relative: true
+    source: path
     version: "0.3.0"
   dna_vscode:
     dependency: "direct dev"
     description:
-      name: dna_vscode
-      sha256: f2a75118bdf88095066629bd497509aa34a8bb14434a8cfd45b164593b31ae87
-      url: "https://pub.dev"
-    source: hosted
+      path: "../dna_vscode"
+      relative: true
+    source: path
     version: "0.3.0"
   ffi:
     dependency: transitive
@@ -204,10 +202,9 @@ packages:
   helix:
     dependency: "direct dev"
     description:
-      name: helix
-      sha256: e7aa11c1238624f942cd8c1f596978c5ad8add2b3e783ebad6afb4826108482a
-      url: "https://pub.dev"
-    source: hosted
+      path: "../helix"
+      relative: true
+    source: path
     version: "1.12.0"
   http_multi_server:
     dependency: transitive
