@@ -108,10 +108,9 @@ packages:
   dna_vscode:
     dependency: "direct dev"
     description:
-      name: dna_vscode
-      sha256: "84912400705b25abc8abc377c3f1c603a2ed5968f20ae42b7ddf6a6ff32fac48"
-      url: "https://pub.dev"
-    source: hosted
+      path: "../dna_vscode"
+      relative: true
+    source: path
     version: "0.4.0"
   ffi:
     dependency: transitive
