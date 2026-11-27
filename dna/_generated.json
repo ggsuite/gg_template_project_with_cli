@@ -5,7 +5,7 @@
       "name": "base",
       "package": "helix",
       "ecosystem": null,
-      "resolvedVersion": "1.12.0",
+      "resolvedVersion": "1.18.0",
       "via": null,
       "hash": "0x6883da335b415f9d"
     },
@@ -13,17 +13,17 @@
       "name": "dna-vscode",
       "package": "dna_vscode",
       "ecosystem": "pub",
-      "resolvedVersion": "0.4.0",
+      "resolvedVersion": "0.6.0",
       "via": null,
-      "hash": "0xb1b916118eb63333"
+      "hash": "0x46884c4501b1446f"
     },
     {
       "name": "dna-scripts",
       "package": "dna_scripts",
       "ecosystem": "pub",
-      "resolvedVersion": "0.3.0",
+      "resolvedVersion": "0.5.0",
       "via": null,
-      "hash": "0xe3092339b83504a1"
+      "hash": "0x9463bfb42bfd4adf"
     },
     {
       "name": "self",
@@ -36,26 +36,33 @@
   ],
   "claude": {
     "claudeMdInclude": null,
-    "claudeMdFromDna": false
+    "claudeMdFromDna": false,
+    "blockHash": null
   },
-  "baseVersion": "1.12.0",
+  "baseVersion": "1.18.0",
   "baseHash": "0x6883da335b415f9d",
+  "configHash": "0x5f3a5ce3230483ae",
+  "gitignoreHash": "0xa885f740b591609b",
   "instances": [
     {
       "path": ".claude/skills/scripts/SKILL.md",
-      "hash": "0xa12593aa0af31ed2"
+      "hash": "0xafadcde5bcc41ba1"
     },
     {
       "path": ".claude/skills/vscode/SKILL.md",
-      "hash": "0xa331cf3abdbd1c7b"
+      "hash": "0x4bfd5794be24b99a"
     },
     {
       "path": ".prettierignore",
-      "hash": "0x9e5afe8bbdb91467"
+      "hash": "0x20607b6b0caa5b76"
     },
     {
       "path": ".prettierrc",
       "hash": "0xf2be2549d1b502ae"
+    },
+    {
+      "path": ".pubignore",
+      "hash": "0xc88ed9c8d202e83f"
     },
     {
       "path": ".vscode/extensions.json",
@@ -66,12 +73,28 @@
       "hash": "0x56f3eedd72c6218f"
     },
     {
-      "path": "doc/guides/scripts-guide.md",
+      "path": "doc/de/guides/scripts-guide.md",
+      "hash": "0x383c9cd12612f284"
+    },
+    {
+      "path": "doc/de/guides/vscode-guide.md",
+      "hash": "0x90af03be17b5cbad"
+    },
+    {
+      "path": "doc/en/guides/scripts-guide.md",
       "hash": "0x426857c389049083"
     },
     {
-      "path": "doc/guides/vscode-guide.md",
+      "path": "doc/en/guides/vscode-guide.md",
       "hash": "0x6776b27c7cbedb98"
+    },
+    {
+      "path": "doc/fa/guides/scripts-guide.md",
+      "hash": "0xf3ae7d988f157168"
+    },
+    {
+      "path": "doc/fa/guides/vscode-guide.md",
+      "hash": "0xf0136f9c27d0d7ba"
     },
     {
       "path": "scripts/delete-feature-branch.js",
@@ -83,7 +106,7 @@
     },
     {
       "path": "scripts/functions/current-branch.js",
-      "hash": "0xb9ebbadf45893278"
+      "hash": "0x6610874731cac4e8"
     },
     {
       "path": "scripts/functions/directories.js",
@@ -103,11 +126,11 @@
     },
     {
       "path": "scripts/functions/is-main-up-to-date.js",
-      "hash": "0xe1ab1826d0ddd039"
+      "hash": "0x305e8c2e6acee6d6"
     },
     {
       "path": "scripts/functions/pull-request-url.js",
-      "hash": "0x5398755a61a59928"
+      "hash": "0xf6afe906fbd542f1"
     },
     {
       "path": "scripts/functions/run-command.js",
