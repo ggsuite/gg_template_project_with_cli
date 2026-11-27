@@ -101,18 +101,18 @@ packages:
     dependency: "direct dev"
     description:
       name: dna_scripts
-      sha256: cf5dffa1242fe06668c77664d65e1b86fc0db5127da636ead6f212e47e2127ba
+      sha256: "7c8e633cf842ab3177399947cf3cf0766abc26493924b24f120344b882ced4df"
       url: "https://pub.dev"
     source: hosted
-    version: "0.3.0"
+    version: "0.5.0"
   dna_vscode:
     dependency: "direct dev"
     description:
       name: dna_vscode
-      sha256: "84912400705b25abc8abc377c3f1c603a2ed5968f20ae42b7ddf6a6ff32fac48"
+      sha256: "308026923445f247cf391be16da08bd9d78b774d5dec545fd4924ff23feb3052"
       url: "https://pub.dev"
     source: hosted
-    version: "0.4.0"
+    version: "0.6.0"
   ffi:
     dependency: transitive
     description:
@@ -205,10 +205,10 @@ packages:
     dependency: "direct dev"
     description:
       name: helix
-      sha256: e7aa11c1238624f942cd8c1f596978c5ad8add2b3e783ebad6afb4826108482a
+      sha256: "46beffb2586fff84a445d706ccf68b32b459273263bd177173045a49459d17ea"
       url: "https://pub.dev"
     source: hosted
-    version: "1.12.0"
+    version: "1.18.0"
   http_multi_server:
     dependency: transitive
     description:
@@ -506,4 +506,4 @@ packages:
     source: hosted
     version: "3.1.4"
 sdks:
-  dart: ">=3.13.0 <4.0.0"
+  dart: ">=3.14.0 <4.0.0"
